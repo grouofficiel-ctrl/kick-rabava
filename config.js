@@ -34,19 +34,19 @@ const CONFIG = {
   // icon = any emoji. primary:true makes one button the bright accent button.
   showSupport: true,
   support: [
-    { label: "Watch Live on Kick", icon: "🔴", link: "https://go.NAME.gg/live", primary: true },
-    { label: "Buy Me a Coffee",    icon: "☕", link: "https://go.NAME.gg/money"  },
-    { label: "PayPal",             icon: "💳", link: "https://go.NAME.gg/paypal" },
-    { label: "Become a Sub",       icon: "⭐", link: "https://go.NAME.gg/sub"    },
+    { label: "Watch Live on Kick", icon: "🔴", link: "https://kick.com", primary: true },
+    { label: "Buy Me a Coffee",    icon: "☕", link: "https://www.buymeacoffee.com"  },
+    { label: "PayPal",             icon: "💳", link: "https://www.paypal.com" },
+    { label: "Become a Sub",       icon: "⭐", link: "https://kick.com"    },
   ],
 
   /* ---- CRYPTO (QR codes auto-generate from the address) -------------- */
   showCrypto: true,
   crypto: [
-    { name: "Bitcoin",  symbol: "BTC",   badge: "₿", address: "PASTE_BTC_ADDRESS"  },
-    { name: "Ethereum", symbol: "ETH",   badge: "Ξ", address: "PASTE_ETH_ADDRESS"  },
-    { name: "Solana",   symbol: "SOL",   badge: "◎", address: "PASTE_SOL_ADDRESS"  },
-    { name: "USDT",     symbol: "TRC20", badge: "₮", address: "PASTE_USDT_ADDRESS" },
+    { name: "Bitcoin",  symbol: "BTC",   badge: "₿", address: "bc1qh6gx2epssa45h4ukkj4ate0nfduxel73nuaj4u"  },
+    { name: "Ethereum", symbol: "ERC20", badge: "Ξ", address: "0x6486072f7b5ed3ee29947ca580d4784aee78c3f2"  },
+    { name: "Solana",   symbol: "SOL",   badge: "◎", address: "HmVBwfq7C3DG3hEB9vg9nH6HaKAR2WAoTSM4313WYLWm"  },
+    { name: "USDT",     symbol: "TRC20", badge: "₮", address: "TDQKXm6PYumzXAS5XttC9rUMrgZkHYpD7B" },
   ],
 
   /* ---- CURRENT GOALS (off by default) -------------------------------- */
@@ -59,11 +59,11 @@ const CONFIG = {
   /* ---- FREE WAYS TO HELP --------------------------------------------- */
   showFree: true,
   free: [
-    { label: "Follow on Kick", link: "https://go.NAME.gg/live"    },
-    { label: "Join Discord",   link: "https://go.NAME.gg/discord" },
-    { label: "YouTube",        link: "https://go.NAME.gg/yt"      },
-    { label: "TikTok",         link: "https://go.NAME.gg/tiktok"  },
-    { label: "X / Twitter",    link: "https://go.NAME.gg/x"       },
+    { label: "Follow on Kick", link: "https://kick.com"    },
+    { label: "Join Discord",   link: "https://discord.com" },
+    { label: "YouTube",        link: "https://www.youtube.com"      },
+    { label: "TikTok",         link: "https://www.tiktok.com"  },
+    { label: "X / Twitter",    link: "https://x.com"       },
   ],
 
   /* ---- BECOME A SUPPORTER (impact list) ------------------------------ */
